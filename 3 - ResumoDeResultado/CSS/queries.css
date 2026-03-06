@@ -1,0 +1,36 @@
+
+@media (max-width: 41rem) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 38rem) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 32rem) {
+  html {
+    font-size: 75%;
+  }
+  body {
+    background-color: #fff;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .result-summary {
+    padding: 0px;
+    top: -2%;
+    width: 100%;
+    position: absolute;
+  }
+  .grid-col-2 {
+    box-shadow: none;
+    grid-template-columns: 1fr;
+  }
+  .result-title {
+    padding: 4.8rem 0rem;
+  }
+}

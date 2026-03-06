@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #444;
+  background-color: rgb(242, 235, 227);
+}
+
+.tela-venda {
+  padding: 7.2rem 0px 3.2rem 0px;
+}
+.conteiner {
+  background-color: #fff;
+  max-width: 60rem;
+  margin: 0 auto;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 3.2rem;
+  align-items: center;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.img-produto {
+  padding: 0;
+}
+.img {
+  width: 30rem;
+}
+.informacoes-perfume {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 3.2rem 3.2rem 0;
+}
+.perfume,
+.titulo-perfume,
+.titulo-perfume,
+.descricao-produto,
+.preco-promo,
+.btn-compra {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+.perfume {
+  font-size: 1.6rem;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.titulo-perfume {
+  color: #333;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform:capitalize;
+  font-family: "Fraunces", serif;
+}
+.descricao-produto {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #444;
+}
+.preco-promo {
+  font-size: 3.2rem;
+  font-family: 'Frauces', serif;
+  font-weight: bold;
+  color: rgb(60, 128, 103);
+}
+.preco-anterior {
+  font-size: 1.4rem;
+  color: #666;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-compra {
+  padding: 1.6rem;
+  border-radius: 0.6rem;
+  background-color: rgb(60, 128, 103);
+}
+.btn {
+  text-align: center;
+  margin-top: 3.2rem;
+}
