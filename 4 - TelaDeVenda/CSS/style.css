@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #444;
@@ -15,7 +15,7 @@ body {
 }
 
 .tela-venda {
-  padding: 7.2rem 0px 3.2rem 0px;
+  padding: 12rem;
 }
 .conteiner {
   background-color: #fff;
@@ -27,23 +27,23 @@ body {
 .grid {
   display: grid;
   row-gap: 9.6rem;
-  column-gap: 3.2rem;
+  /* column-gap: 3.2rem; */
   align-items: center;
 }
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
-.img-produto {
-  padding: 0;
-}
+
 .img {
-  width: 30rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .informacoes-perfume {
   list-style: none;
   display: flex;
   flex-direction: column;
-  padding: 3.2rem 3.2rem 3.2rem 0;
+  padding: 0rem 2rem 3.2rem 3.2rem;
 }
 .perfume,
 .titulo-perfume,
@@ -53,47 +53,72 @@ body {
 .btn-compra {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  /* gap: 1.6rem; */
   line-height: 1.2;
-  margin-bottom: 2.4rem;
+  /* margin-bottom: 2rem; */
 }
 .perfume {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.6rem;
   color: #666;
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 .titulo-perfume {
   color: #333;
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 1;
-  text-transform:capitalize;
+  text-transform: capitalize;
   font-family: "Fraunces", serif;
+  margin-bottom: 1.6rem;
 }
 .descricao-produto {
   font-size: 1.4rem;
   line-height: 1.4;
   color: #444;
+  margin-bottom: 4rem;
 }
 .preco-promo {
   font-size: 3.2rem;
-  font-family: 'Frauces', serif;
+  font-family: "Frauces", serif;
   font-weight: bold;
   color: rgb(60, 128, 103);
+  margin-bottom: 1rem;
 }
 .preco-anterior {
+  padding-left: 1rem;
   font-size: 1.4rem;
   color: #666;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .btn-compra {
   padding: 1.6rem;
   border-radius: 0.6rem;
   background-color: rgb(60, 128, 103);
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 1.6rem;
+  /* display: flex;
+  gap: 2rem; */
+  /* text-align: center;
+  align-items: center; */
+}
+.btn-compra:hover {
+  background-color: rgb(50, 114, 90);
+}
+.preco-anterior {
+  text-decoration: line-through;
 }
 .btn {
+  margin-top: 1rem;
+}
+.text-compra {
   text-align: center;
-  margin-top: 3.2rem;
+}
+.icone-cart {
+  float: left;
 }
